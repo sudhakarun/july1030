@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Launch {
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\Shree\\eclipse-workspace\\Sample\\driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\SUDHA\\eclipse-workspace\\Sample\\driver\\chromedriver.exe");
 		WebDriver driver= new ChromeDriver();
 		driver.get("https://www.snapdeal.com/");
 		
